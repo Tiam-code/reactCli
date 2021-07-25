@@ -1,0 +1,28 @@
+.footContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footContainer input{
+    width: 15px;
+    height: 15px;
+    border-radius: 1px;
+}
+
+.footContainer label{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.footContainer button {
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #bd362f;
+}
+.footContainer button:hover{
+    cursor: pointer;
+    background-color: #bd362f;
+}
